@@ -1,9 +1,6 @@
-import dotenv
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-
-dotenv.load_dotenv()
 
 llm = ChatOpenAI(
     model='qwen3.5-plus',
